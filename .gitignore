@@ -1,0 +1,18 @@
+# KiCad local / temporary files
+*-backups/
+*.kicad_prl
+fp-info-cache
+~_autosave*
+*.lck
+*.bak
+
+# SolidWorks temporary files
+~$*
+*.sldedb
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local inventory
+structure.txt

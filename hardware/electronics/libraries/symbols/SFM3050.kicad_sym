@@ -1,0 +1,339 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "SFM3050"
+		(pin_names
+			(offset 0.0129)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capteur emprunte"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SFM3050_1_1"
+			(rectangle
+				(start -3.81 7.62)
+				(end 3.81 -8.89)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+				(at -6.35 6.35 0)
+				(length 2.54)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name "Rx"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.35 -3.81 0)
+				(length 2.54)
+				(name "Tx"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(name "Reserve"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -6.35 -6.35 0)
+				(length 2.54)
+				(name "Reserve"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 10.16 270)
+				(length 2.54)
+				(name "Vss"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -6.35 -7.62 0)
+				(length 2.54)
+				(name "GPIO7"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -6.35 5.08 0)
+				(length 2.54)
+				(name "GPIO5"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -6.35 3.81 0)
+				(length 2.54)
+				(name "GPIO6"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 10.16 270)
+				(length 2.54)
+				(name "Vss"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 2.54 0)
+				(length 2.54)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 1.27 0)
+				(length 2.54)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -1.27 0)
+				(length 2.54)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -11.43 90)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.254 0.254)
+						)
+					)
+				)
+			)
+		)
+	)
+)
